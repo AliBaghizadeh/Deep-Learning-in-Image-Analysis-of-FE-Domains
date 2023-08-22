@@ -19,6 +19,9 @@ To accomplish the project, I have used following packages:<br><br>
 2- ***generating images.ipynb***: <br>
 &nbsp;&nbsp;&nbsp;This jupyter file uses the functions in lattice_builder file to generate images. <br>
 3- ***create_datasets.py***:  <br>
-&nbsp;&nbsp;&nbsp; This file is more for the general purpose of creating a dataset like MNIST dataset, where it can be easily loaded to any notebook for &nbsp;&nbsp;&nbsp;subsequent training. I found this approach handy for easy access to standard data format. The dataset will also add noise to the images for &nbsp;&nbsp;&nbsp;denoising or other purposes if one asks to have it.<br>
-4- ***random_lattices_ResNet50***: <br>
-&nbsp;&nbsp;&nbsp;This file applies image augmentation from tf.data.dataset on whole images, split data to train and valid datasets and then uses pretrained &nbsp;&nbsp;&nbsp;weights of ResNet50 model for training a model with optional dense layers. This method is memory friendly for large datasets.<br>
+&nbsp;&nbsp;&nbsp; This file is more for the general purpose of creating a dataset like MNIST dataset, where it can be easily loaded to any notebook for &nbsp;&nbsp;&nbsp;subsequent training. I found this approach handy for easy access to standard data format. If one asks for it, the dataset will also add noise to &nbsp;&nbsp;&nbsp;the images for denoising or other purposes.<br>
+4- ***CNN_Autoencoder.ipynb***: <br>
+&nbsp;&nbsp;&nbsp; This notebook introduces CNN architecture, to create an autoencoder model for image denoising. <br>
+5- ***VAE_Autoencoder.ipynb***: <br>
+&nbsp;&nbsp;&nbsp; To compare more complicated models, like variational autoencoder with CNN autoencoder, this notebook demonstrates an example of using 
+&nbsp;&nbsp;&nbsp;VAE autoencoder for image denoising, and generating a new image sample from the decoder part of the model. <br>
