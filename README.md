@@ -19,7 +19,7 @@ To accomplish the project, I have used following packages:<br><br>
 2- ***generating images.ipynb***: <br>
 &nbsp;&nbsp;&nbsp;This jupyter file uses the functions in lattice_builder file to generate images. <br>
 3- ***create_datasets.py***:  <br>
-&nbsp;&nbsp;&nbsp; This file is more for the general purpose of creating a dataset like MNIST dataset, where it can be easily loaded to any notebook for &nbsp;&nbsp;&nbsp;subsequent training. I found this approach handy for easy access to standard data format. If one asks for it, the dataset will also add noise to &nbsp;&nbsp;&nbsp;the images for denoising or other purposes.<br>
+&nbsp;&nbsp;&nbsp; This file is more for the general purpose of creating a dataset like MNIST dataset, where it can be easily loaded to any notebook for &nbsp;&nbsp;&nbsp;subsequent training. I found this &nbsp;&nbsp;&nbsp; approach handy for easy access to standard data format. If one asks for it, the dataset will also add noise to &nbsp;&nbsp;&nbsp;the images for denoising or other purposes.<br>
 4- ***CNN_Autoencoder.ipynb***: <br>
 &nbsp;&nbsp;&nbsp; This notebook introduces CNN architecture, to create an autoencoder model for image denoising. <br>
 5- ***VAE_Autoencoder.ipynb***: <br>
